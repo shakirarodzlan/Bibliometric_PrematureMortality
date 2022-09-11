@@ -87,6 +87,9 @@ pm3 %>%
   xlab("Publication year") +
   theme_bw()
 
+# Total citation  
+pm3$TC %>% as.numeric() %>% sum() 
+
 
 # Collaboration plot ------------------------------------------------------
 
